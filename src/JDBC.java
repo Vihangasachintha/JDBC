@@ -5,7 +5,7 @@ public class JDBC {
         String url = "jdbc:mysql://localhost:3306/jdbc";
         String user = "root";
         String password = "Viha@sachi2002";
-        String query = "CREATE TABLE subjects (code VARCHAR(20),name VARCHAR(20))";
+        String query = "DROP TABLE subjects";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
