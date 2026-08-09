@@ -5,7 +5,7 @@ public class JDBC {
         String url = "jdbc:mysql://localhost:3306/jdbc";
         String user = "root";
         String password = "Viha@sachi2002";
-        String query = "INSERT INTO users Values ('gayan',25)";
+        String query = "DELETE FROM users WHERE age=24";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
